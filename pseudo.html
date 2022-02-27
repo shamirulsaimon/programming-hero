@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <style>
+  /* pseudo code will be start with : or dubble :: */
+  /* :hover is a pseudo code */
+  h1:hover{
+     color:aqua;
+     background-color:green;
+     font-weight:500;
+  }
+  /* :focus is also a pseudo code */
+  .middle-input:focus{
+     color:blue;
+     font-weight:700;
+  }
+  /* :visited is a pseudo code which help the link tag color get change or change the default color  */
+a:visited{
+     color:red;
+}
+/* pseudo child  */
+li:first-child{
+ color:chocolate;
+}
+li:last-child{
+  background-color: aquamarine;
+}
+/* even number and odd number color oe style with pseudo code */
+ /* li:nth-child(n)
+{
+ color:aqua;
+}  */
+li:nth-child(2n){
+ color:antiquewhite;
+}
+li:nth-child(2n+1)
+{
+ color:blueviolet;
+}
+/* pseudo emit :: hobe */
+ h3::before{
+   content: 'hello' ;
+ }
+h3::after{
+  content:'gelo' ;
+  background-color: brown;
+  font-size: medium;
+}
+ </style>
+ <title>Document</title>
+</head>
+<body>
+   <h1>this is normal</h1>
+   <input type="text">
+   <input class="middle-input"type="text">
+   <input type="text">
+   <a href="#">google.com</a>
+   <a href="#">lol</a>
+   <a href="#">facebook</a>
+   <br>
+   <h3>middle size header-1</h3>
+   <h3>middle size header-2</h3>
+   <h3>middle size header-3</h3>
+   <h3>middle size header-4</h3>
+   <h3>middle size header-5</h3>
+   <h3>middle size header-6</h3>
+   <ul>
+    <li>item number1</li>
+    <li>item number2</li>
+    <li>item number3</li>
+    <li>item number4</li>
+    <li>item number5</li>
+    <li>item number6</li>
+   </ul>
+</body>
+</html>

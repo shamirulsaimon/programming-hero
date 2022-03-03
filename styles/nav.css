@@ -22,4 +22,8 @@ nav > ul > li:hover > ul
 }
 .dropdown{
  display:none;
+ position:absolute;
+}
+.dropdown li {
+padding: 0 20px;
 }

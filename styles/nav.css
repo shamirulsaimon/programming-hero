@@ -16,6 +16,10 @@ nav li a
  color:black;
  font-size:25px;
 }
+nav > ul > li:hover > ul
+{
+ display:block;
+}
 .dropdown{
  display:none;
 }

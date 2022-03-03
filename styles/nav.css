@@ -16,3 +16,6 @@ nav li a
  color:black;
  font-size:25px;
 }
+.dropdown{
+ display:none;
+}
